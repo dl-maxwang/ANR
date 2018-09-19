@@ -1,4 +1,4 @@
-package com.zihuiinfo.facerecogntionsdk.example.ANR;
+package com.example.ANR;
 
 import android.os.Handler;
 import android.os.Message;
