@@ -12,12 +12,12 @@ public class DemoApplication extends Application {
 }
 ```
 
-it will track line number where operation takes too much time
+it will track down line number where operation takes too much time like this
 ```
 com.example.ANR.ANRException: ANR happened
         at java.lang.Object.wait(Native Method)
         at org.tensorflow.Graph.close(Graph.java:54)
-        at com.zihuiinfo.facesdk.boundingbox.MTCNN.clean(MTCNN.java:419)
-        at com.zihuiinfo.facesdk.FaceBoundingBox.clean(FaceBoundingBox.java:30)
-        at com.zihuiinfo.facerecogntionsdk.example.CameraOnTheFly.onDestroy(CameraOnTheFly.java:179)
+        at com.facesdk.boundingbox.MTCNN.clean(MTCNN.java:419)
+        at com.facesdk.FaceBoundingBox.clean(FaceBoundingBox.java:30)
+        at com.facerecogntionsdk.example.CameraOnTheFly.onDestroy(CameraOnTheFly.java:179)
 ```
