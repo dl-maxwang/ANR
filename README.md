@@ -8,8 +8,6 @@ public class DemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
         new Thread(new ANRWatchDog()).start();
-        FacenetInstance.getInstance();
-        MTCNNInstance.getInstance();
     }
 }
 ```
